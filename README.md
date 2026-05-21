@@ -1,10 +1,6 @@
 # Tech Vlog
-## Example
-### Example
-#### Example
-##### Example
-- 항목 구분 1
-  - 수학 정리
-	- [내적 정리](./Math/Dot.md)
-- 항복 구분 2
-- 항북 구분 3
+1. CSharp
+	1. Variables
+	1. Types
+	1. 크기와 범위
+2. Unity
