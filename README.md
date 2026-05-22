@@ -53,4 +53,4 @@ if(test == true)
     Debug.Log("Test");
 }
 ```
->피타고라스 정리
+>피타고라스 정리에 대해
