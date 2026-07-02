@@ -68,7 +68,7 @@
 - Decorder
     - n비트의 2진 코드를 입력받아 최대 2의 n제곱개의 서로 다른 정보(또는 출력)로 변환해 주는 조합논리회로. 부호화된 데이터를 사람이 읽거나 컴퓨터가 인식할 수 있는 형태로 해독(복호화)하는 역할.
 - Shifter
-- [System Bus](../Software/Bus.md)
+- [System Bus](../Software/CPU//Bus.md)
     - CPU가 메모리 등의 주변 장치들과 데이터를 주고받는 전기적 통로.
 - Root Motion
     - 게임오브젝트의 위치와 회전을 Animation이 제어할 수 있도록 허용하는 것. Root Motion이 적용된 걷는 애니메이션은 캐릭터가 걷는 것에 따라 위치 값도 변하게 됨.
