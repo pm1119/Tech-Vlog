@@ -1,8 +1,8 @@
-# Tech Vlog
+ï»¿# Tech Vlog
 1. CSharp
 	1. Variables
 	1. Types
-	1. Å©±â¿Í ¹üÀ§
+	1. í¬ê¸°ì™€ ë²”ìœ„
 2. Unity
 	- _Editor_
 		- **Transform**
@@ -53,4 +53,4 @@ if(test == true)
     Debug.Log("Test");
 }
 ```
->ÇÇÅ¸°í¶ó½º Á¤¸®¿¡ ´ëÇØ
+>í”¼íƒ€ê³ ë¼ìŠ¤ ì •ë¦¬ì— ëŒ€í•´
