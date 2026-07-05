@@ -1,4 +1,4 @@
-# File Dormat
+# File Format
 - 컴퓨터 파일에 데이터를 저장하고 인코딩하는 방식
 - 대표적인 파일 포맷
     - 문서: PDF, DOCX, HWP, TXT
