@@ -99,6 +99,7 @@
     - 일반 렌더링 파이프라인과 별도로 그래픽 카드에서 실행되는 프로그램. 컴퓨트 셰이더는 대량 병렬 GPGPU 알고리즘 또는 게임 렌더링의 일부를 가속시키기 위해 사용할 수 있음.
 - 프로세스
     - 운영체제로부터 자원을 할당받아 실행 중인 프로그램
+    - [Thread](../Software/CPU/Thread.md)
     - [프로세스 메모리 영역](../Software/ProcessMemory.md)
         - 운영체제가 프로그램 실행을 위해 할당하는 코드(Code), 데이터(Data), 힙(Heap), 스택(Stack) 4가지 주요 구조로 나뉨.
 - [파일 포맷](../Software/FileFormat/FileFormat.md)
