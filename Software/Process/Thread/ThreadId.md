@@ -1,0 +1,11 @@
+# Thread Id
+- 프로세스와 마찬가지로 운영체제나 프로그래밍 언어가 실행 중인 각각의 독립적인 스레드를 식별하기 위해 부여하는 고유한 번호.
+- 각 언어당 스레드 아이디 식별 및 확인 방법
+    - C++
+        - C++11부터 표준 라이브러리를 통해 스레드를 지원. get_id() 메서드를 사용해 현재 스레드의 고유 식별자를 가져올 수 있음.
+    - Python
+        - 내장 모듈인 threading을 사용하여 스레드의 ID 또는 이름을 식별할 수 있음. threading.get_ident()는 해당 스레드의 고유 정수 ID를 반환함.
+    - Java
+        - Thread.currentThread().getId()를 호출하여 현재 실행 중인 스레드의 고유 ID를 가져올 수 있음. 이 ID는 long 타입 값을 가짐.
+    - C#(.NET)
+        - Thread.CurrentThread.ManagedThreadId 속성을 통해 .NET 런타임이 스레드에 할당한 관리되는 고유 식별자(정수)를 조회할 수 있음.
