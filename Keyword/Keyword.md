@@ -92,4 +92,12 @@
     - [스레드](../Software/Process/Thread/Thread.md)
         - [스레드 제어 블록](../Software/Process/Thread/ThreadControlBlock.md)
 - [파일 포맷](../Software/FileFormat/FileFormat.md)
+- Dictionary 키 구조
+    - 2진 트리
+        - 포화 2진 트리
+            - Branch부터 Leaf까지 꽉 찬 2진 트리
+            - 완전 2진 트리
+                - 위에서부터 아래로 왼쪽에서부터 오른쪽으로 완전히 찬 형태의 2진 트리
+            - 균형 2진 트리
+        - - Dictionary 키 구조는 균형 2진 트리로 관리됨
         
