@@ -94,10 +94,37 @@
 - [파일 포맷](../Software/FileFormat/FileFormat.md)
 - Dictionary 키 구조
     - 2진 트리
+        - 순회 방식 
+            - 전위
+            - 중위
+            - 후위
+        - 시간복잡도(최악 O) => O(1) > O(logn) > O(n) > O(n * logn) > O(n^2) > O(n^3) 시간하고 값이 비례해서 올라감
+        >O(n)
+        ```csharp
+        for(int i = 0; i <= n; i++)
+        {
+            if(i == n)
+                break;
+        }
+        ```
+        >O(n^2)
+        ```csharp
+        //n * n = n^2
+        for(int y = 0; y < n; y++)
+        {
+            for(int x = 0; x < n; x++)
+            {
+
+            }
+        }
+        ```
+        - 이진 탐색 - O(logn)
+          - 이진 탐색 트리 - O(logn)
+        - 완전 이진 트리
         - 포화 2진 트리
             - Branch부터 Leaf까지 꽉 찬 2진 트리
             - 완전 2진 트리
                 - 위에서부터 아래로 왼쪽에서부터 오른쪽으로 완전히 찬 형태의 2진 트리
             - 균형 2진 트리
-        - - Dictionary 키 구조는 균형 2진 트리로 관리됨
+        - Dictionary 키 구조는 균형 2진 트리로 관리됨
         
