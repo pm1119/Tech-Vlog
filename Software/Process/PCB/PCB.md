@@ -3,8 +3,8 @@
 - 구성 요소
     - [Process ID](ProcessID.md)
     - [프로세스 상태](ProcessState.md)
-    - [프로그램 카운터(PC)](../../CPU/Register.md)
-    - [CPU 레지스터](../../CPU/Register.md)
+    - [프로그램 카운터(PC)](../../CPU/Register/Register.md)
+    - [CPU 레지스터](../../CPU/Register/Register.md)
     - CPU 스케줄링 정보
     - 메모리 관리 정보
     - 입출력(I/O) 상태 정보
