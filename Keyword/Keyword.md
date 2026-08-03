@@ -131,4 +131,10 @@
                 - 위에서부터 아래로 왼쪽에서부터 오른쪽으로 완전히 찬 형태의 2진 트리
             - 균형 2진 트리
         - Dictionary 키 구조는 균형 2진 트리로 관리됨
+- Hash : 값을 특정한 알고리즘을 통해 변환하는 것.(단방향, 복원 불가)
+- HashTable : Hash에서 나온 값을 테이블화(Hash : 키 값)
+- C#의 자료형과 변수를 찾을 때 사용
+- Unity 에셋을 찾을 때 사용
+    - Unity Animation에서 Animation Clip 검색 시 Hash가 기본적으로 사용됨.
+- Message는 Hash를 사용하지 않음
         
