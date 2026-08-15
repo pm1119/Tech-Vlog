@@ -1,0 +1,21 @@
+# 가산기
+- 이진수의 덧셈 연산을 수행하는 기본적인 디지털 논리 회로.
+- CPU와 ALU에서 수많은 산술 연산과 주소 계산을 처리하는 핵심 구성 요소.
+- 종류
+    - 1비트 가산기
+        - 반가산기(half Adder)
+            - ![Adder.](https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Half-adder.svg/250px-Half-adder.svg.png)
+            - 자리올림수를 고려하지 않고 1자리 이진수 2개($A, B$), 즉 1비트를 받아 합(S)과 자리올림수(C)를 출력하는 회로.
+        - 전가산기(full Adder)
+            - ![Adder.](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Full-adder.svg/250px-Full-adder.svg.png)
+            - 아랫자리에서 올라온 자리올림수(Cin)까지 포함해 총 3개의 입력(A, B, Cin)을 더해 합(S)과 자리올림수(Cout)를 출력하는 회로.
+            - 다중 비트 덧셈을 할 때 기본 블록으로 쓰임.
+    - 멀티 비트 가산기
+        - 컴퓨터는 8비트, 16비트, 32비트, 64비트 등의 데이터 단위로 움직이기에, 가산기도 이에 대응하여 멀티 비트를 처리할 수 있어야 함. 기본적으로 전가산기를 여러 개 묶어서 사용.
+        - 리플 캐리 가산기(Ripple-Carry Adder)
+            - ![Adder.](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/4-bit_ripple_carry_adder.svg/960px-4-bit_ripple_carry_adder.svg.png)
+            - 복수의 전가산기를 이용하여 임의의 비트 수를 더하는 논리회로를 만들 수 있는 방식. 각각의 전가산기가 자리올림수 입력 Cin으로 직전의 자리올림수 출력 Cout을 받는 형식으로, 자리올림수가 물결(ripple)치듯 다음 가산기로 옮겨 간다고 하여 리플 캐리 가산기라 함. 첫 번째 전가산기에 한하여 반가산기로 대체될 수 있음.
+        - 자리올림수 예측 가산기(Carry-Lookahead Adder)
+            - ![Adder.](https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/4-bit_carry_lookahead_adder.svg/960px-4-bit_carry_lookahead_adder.svg.png)
+            - 덧셈은 정보 처리의 기본이기 때문에 고속 정보처리를 위해서 우선 가산기 동작의 고속화가 요구됨. 논리회로의 동작속도는 입력에서 출력까지 사이에 있는 논리소자(논리곱이나 논리합 회로)의 개수가 크게 영향을 줌.
+            - 자리수가 커지면 논리소자의 단수는 고속처리의 큰 장해가 됨. 그렇기 때문에 단수를 크게하는 자리올림수 신호(캐리어 신호)의 부분을 따로 계산하여 단수를 줄이는 방법이 자주 행해짐. 이 자리올림수 신호를 다른 논리회로로 생성하는 방법을 자리올림 예측(carry look ahead)라고 부름.
