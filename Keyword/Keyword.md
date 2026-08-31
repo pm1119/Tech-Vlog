@@ -1,8 +1,8 @@
 ﻿# 게임 프로그래밍
 
-- AABB 연산
+- AABB 연산(Axis Aligned Bounding Box)
     - 축이 정렬된 연산
-- OOB 연산
+- OOB 연산(Oriented Bounding Box)
     - 축이 회전된 연산
 - [분리축 이론](../Math/SAT.md)
 - [FSM](../Unity/FSM.md)
