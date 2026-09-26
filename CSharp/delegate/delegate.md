@@ -11,7 +11,7 @@ class Player
 	private int hp;
 	private int attack;
 
-	public delegate void AttackDelegate(int number, int damage);
+	public delegate void AttackDelegate(int number, int damage); //措府磊 积己
 
 	public AttackDelegate OnAttack;
 
@@ -25,7 +25,7 @@ class Player
 	{
 		if (OnAttack != null)
 		{
-			OnAttack.Invoke(number, attack);
+			OnAttack.Invoke(number, attack); //措府磊 惯青
 		}
 	}
 }
