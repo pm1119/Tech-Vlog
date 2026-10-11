@@ -4,6 +4,8 @@
 - 제네릭을 사용해 특정 데이터 타입에 의존하지 않아 유연하게 사용할 수 있는 클래스, 메서드, 인터페이스 생성 가능.
 >Generic 사용법 예시
 ```csharp
+using System.Collections.Generic;
+
 class Utility
 {
     public static void Print<T>(T data) //T는 매개변수로 클래스가 생성될 때 타입 결정
